@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Botoes">
+        <item name="android:layout_width">158dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:background">#4CAF50</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">70sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">56dp</item>
+    </style>
+
+
+    <style name="edtCalculadora">
+
+        <item name="android:layout_width">wrap_content </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:textSize"> 34sp </item>
+        <item name="android:textStyle">bold </item>
+        <item name="android:layout_marginTop"> 60dp </item>
+
+
+    </style>
+    <style name="edtNum1">
+        <item name="android:layout_width">209dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginTop" >88dp</item>
+        <item name="android:background">#4CAF50</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">DIGITE NUMERO 1</item>
+
+
+    </style>
+
+    <style name="edtNum2">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:layout_marginTop" >32dp</item>
+        <item name="android:background">#4CAF50</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">DIGITE NUMERO 2</item>
+        <item name="layout_constraintHorizontal_bias">0.502</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+
+
+    </style>
+
+    <style name="result">
+        <item name="android:layout_width">63dp</item>
+        <item name="android:layout_height">21dp</item>
+        <item name="android:layout_marginTop" >20dp</item>
+        <item name="android:textSize"> 20sp </item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">DIGITE NUMERO 2</item>
+        <item name="layout_constraintHorizontal_bias">0.586</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+
+    </style>
+
+    <style name="texResultado">
+
+        <item name="android:layout_width">79dp</item>
+        <item name="android:layout_height">17dp</item>
+        <item name="android:layout_marginTop" >24dp</item>
+        <item name="android:textSize"> 20sp </item>
+        <item name="android:background">#4CAF50</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintHorizontal_bias">0.331</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+
+
+    </style>
+
+
+</resources>
